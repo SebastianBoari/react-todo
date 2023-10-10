@@ -1,0 +1,136 @@
+.createTodoModal {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+
+    width: 35.6rem;
+
+    background: #18352c;
+    border-radius: 16px;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    -webkit-box-shadow: 0px 10px 16px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 10px 16px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 16px 1px rgba(0, 0, 0, 0.2);
+}
+
+.createTodoModal_header {}
+
+
+.header_title {
+    font-size: 1.6em;
+    font-weight: 400;
+    color: floralwhite;
+    padding: 1.6rem;
+}
+
+.createTodoModal_form-container {
+    background: floralwhite;
+    width: 100%;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.createTodoModal_form {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.createTodoModal_form .form_buttons {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+
+    background: floralwhite;
+
+    width: 100%;
+    height: 100%;
+}
+
+.form_input-container {
+    width: 100%;
+
+    display: grid;
+    place-items: center;
+}
+
+.form_input {
+    text-align: center;
+    font-size: 1.8em;
+
+    outline: none;
+    border: none;
+
+    padding: 2.4rem;
+    width: 100%;
+    height: 100%;
+    background: rgb(240, 235, 226);
+}
+
+.form_input:focus {
+    outline: none;
+}
+
+.form_buttons {
+    border-radius: 0px 0px 16px 16px;
+}
+
+#confirmTodo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6em;
+    font-weight: 400;
+
+    color: #18352c;
+    background: floralwhite;
+
+    width: 100%;
+    padding: 2.4rem;
+
+    outline: none;
+    border: none;
+    border-radius: 0px 0px 0px 16px;
+
+    cursor: pointer;
+
+    transition: all .3s ease-in;
+}
+
+#confirmTodo:hover {
+    background: #18352c;
+    color: floralwhite;
+}
+
+
+.cancelTodo {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6em;
+    font-weight: 400;
+
+    color: #18352c;
+    background: floralwhite;
+
+    width: 100%;
+    padding: 2.4rem;
+
+    outline: none;
+    border: none;
+    border-radius: 0px 0px 16px 0px;
+
+    cursor: pointer;
+
+    transition: all .3s ease-in;
+}
+
+.cancelTodo:hover {
+    background: #18352c;
+    color: floralwhite;
+}

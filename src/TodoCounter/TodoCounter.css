@@ -1,0 +1,8 @@
+.todo_header {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1.6rem;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 3.2rem;
+}

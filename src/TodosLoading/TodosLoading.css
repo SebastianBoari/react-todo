@@ -1,0 +1,63 @@
+.loading {
+    list-style: none;
+
+    list-style: none;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    gap: 1.6rem;
+    border-radius: 0px 0px 16px 16px;
+}
+
+.loading-box {
+    position: relative;
+    padding: 1.6rem;
+    width: 39.1rem;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    flex-grow: 1;
+    column-gap: 1.6rem;
+
+    border-radius: 6px;
+
+    -webkit-box-shadow: 0px 10px 16px 1px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 10px 16px 1px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 10px 16px 1px rgba(0, 0, 0, 0.1);
+
+    background: linear-gradient(90deg, rgb(221, 220, 220), rgb(201, 201, 201));
+    background-size: 400% 400%;
+    animation: loadingAnimation 1s ease-in infinite;
+}
+
+.loading-box svg {
+    fill: rgb(231, 231, 231);
+    cursor: auto;
+    transform: none !important;
+}
+
+.loading-box svg:hover {
+    fill: rgb(231, 231, 231);
+}
+
+.loading-txt {
+    background: rgb(231, 231, 231);
+    width: 23rem;
+    height: 1rem;
+    border-radius: 25px;
+}
+
+@keyframes loadingAnimation {
+
+    0%,
+    100% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}

@@ -1,0 +1,18 @@
+.todosEmpty_container {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 28rem;
+
+}
+
+.todosEmpty_container svg {
+    width: 16rem;
+}
+
+.todosEmpty_container p {
+    font-size: 1.6em;
+    font-weight: 400;
+    color: gray;
+}

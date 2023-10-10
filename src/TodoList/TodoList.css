@@ -1,0 +1,44 @@
+.main {
+    background: floralwhite;
+}
+
+.todoList-container {
+    padding: 3.2rem;
+    background: floralwhite;
+    height: 35.6rem;
+    width: 100%;
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+.todoList-container::-webkit-scrollbar {
+    width: 8px;
+    background: floralwhite;
+}
+
+.todoList-container::-webkit-scrollbar-track {
+    color: floralwhite;
+}
+
+.todoList-container::-webkit-scrollbar-thumb {
+    background: #18352c;
+    width: 8px;
+    border-radius: 16px;
+}
+
+.todoList-container section {
+    background: floralwhite;
+    padding: 1px;
+}
+
+.todoList {
+    list-style: none;
+
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    gap: 1.6rem;
+    border-radius: 0px 0px 16px 16px;
+}

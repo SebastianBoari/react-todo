@@ -1,0 +1,36 @@
+.todo_add {
+    background: seagreen;
+    display: flex;
+    flex-grow: 1;
+    border-radius: 0px 0px 16px 16px;
+
+    -webkit-box-shadow: 0px 10px 16px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 10px 16px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 10px 16px 1px rgba(0, 0, 0, 0.2);
+}
+
+.todo_add-button {
+    width: 100%;
+    padding: .8rem;
+    background: #18352c;
+    outline: none;
+    border: none;
+    border-radius: 0px 0px 16px 16px;
+    cursor: pointer;
+    transition: all .4s ease-in;
+}
+
+.todo_add-button:focus {
+    outline: none;
+    background: seagreen;
+    transition: all .2s ease-in;
+}
+
+.todo_add-button:hover {
+    background: seagreen;
+    transition: all .2s ease-in;
+}
+
+.button_icon {
+    color: floralwhite;
+}

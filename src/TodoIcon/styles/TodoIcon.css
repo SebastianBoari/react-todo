@@ -1,0 +1,44 @@
+/* ICONS */
+.item_check {}
+
+.item_check-icon {
+    width: 24px;
+    height: 24px;
+    fill: grey;
+    transition: all .4s ease-in;
+}
+
+.item_check-icon:hover {
+    transform: scale(1.1);
+    fill: springgreen;
+    transition: all .2s ease-in;
+}
+
+.item_check .completed {
+    fill: seagreen;
+}
+
+.item_check .completed:hover {
+    transform: scale(1);
+}
+
+.item_delete {
+    width: 24px;
+    height: 24px;
+
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.item_delete-icon {
+    fill: firebrick;
+    cursor: pointer;
+    transition: all .4s ease-in;
+}
+
+.item_delete:hover .item_delete-icon {
+    fill: red;
+    transform: rotate(180deg);
+    transition: all .2s ease-in;
+}

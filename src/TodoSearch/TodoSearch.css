@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap');
+
+.search {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-content: center;
+    flex-grow: 1;
+    width: 100%;
+    background: floralwhite;
+    border-radius: 16px 16px 0px 0px;
+}
+
+.search_options {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-content: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.search_options-label {
+    width: 100%;
+    padding: 3.2rem;
+    background: floralwhite;
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.6em;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    transition: all .3s ease-in;
+}
+
+.search_options-label:hover {
+    color: floralwhite;
+    background: #18352c;
+    transition: all .2s ease-in;
+}
+
+.checked {
+    color: floralwhite;
+    background: #18352c;
+    transition: all .2s ease-in;
+}
+
+#label-all {
+    border-radius: 16px 0px 0px 0px;
+}
+
+#label-finished {
+    border-radius: 0px 16px 0px 0px;
+}
+
+.search_options-input {
+    display: none;
+}
+
+.search_browser-input {
+    width: 100%;
+    border: none;
+
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2.0em;
+    padding: 1.6rem 0;
+    font-weight: 300;
+
+    text-align: center;
+    background: floralwhite;
+
+    -webkit-box-shadow: 0px 16px 16px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 16px 16px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 16px 16px 1px rgba(0, 0, 0, 0.2);
+
+    border-radius: 0px 0px 16px 16px;
+    transition: all .4s ease-in;
+}
+
+.search_browser-input:focus {
+    outline: none;
+    border: none;
+    background: #18352c;
+    color: floralwhite;
+
+    -webkit-box-shadow: 0px 16px 16px 1px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 16px 16px 1px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 16px 16px 1px rgba(0, 0, 0, 0.5);
+
+    transition: all .2s ease-in;
+}
