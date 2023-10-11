@@ -4,15 +4,15 @@
     align-items: center;
     justify-content: center;
     height: 28rem;
-
+    gap: 1.6rem;
 }
 
 .todosEmpty_container svg {
-    width: 16rem;
+    width: 12rem;
 }
 
 .todosEmpty_container p {
-    font-size: 1.6em;
+    font-size: 1.8em;
     font-weight: 400;
-    color: gray;
+    color: #c0c0c0;
 }

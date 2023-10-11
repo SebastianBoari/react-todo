@@ -15,7 +15,7 @@ const InformationPanel = ({ completedTodos, totalTodos }) => {
 
         <div className='pie_container pendingTodos'>
                 <h3 className='pendingTodos_counter'>{pendingTodos}</h3>
-                <p className='pie_description pendingTodos_description'>Tareas pendientes</p>
+                <p className='pie_description pendingTodos_description'>Pendientes</p>
         </div>
 
         <div className='pie_container activeTodos'>
@@ -23,7 +23,7 @@ const InformationPanel = ({ completedTodos, totalTodos }) => {
                 percentage={activeTodos}
                 colour={'crimson'}
             />
-            <p className='pie_description'>Tareas activas</p>
+            <p className='pie_description'>Activas</p>
         </div>
 
         <div className='pie_container finishedTodos'>
@@ -31,7 +31,7 @@ const InformationPanel = ({ completedTodos, totalTodos }) => {
                 percentage={completedPercentage}
                 colour={'seagreen'}
             />
-            <p className='pie_description'>Tareas finalizadas</p>
+            <p className='pie_description'>Finalizadas</p>
         </div>
     </section>
   )
