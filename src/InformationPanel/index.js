@@ -1,12 +1,14 @@
 import React from 'react'
-import './InformationPanel.css'
-import { Pie } from './Pie'
+
+import { Pie } from '../PieGraph'
+
+import './css/index.css'
 
 const InformationPanel = ({ completedTodos, totalTodos }) => {
+
     const completedPercentage = (completedTodos / totalTodos) * 100
     const pendingTodos = totalTodos - completedTodos
     const activeTodos = (pendingTodos / totalTodos) * 100
-    console.log(activeTodos)
 
   return (
     <section className='InformationPanel'>

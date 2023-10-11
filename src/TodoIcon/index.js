@@ -1,8 +1,10 @@
 import React from 'react'
+
 import { ReactComponent as CheckSvg } from './svg/check.svg'
 import { ReactComponent as DeleteSvg } from './svg/delete.svg'
 import { ReactComponent as EmptySvg } from './svg/empty.svg'
-import './styles/TodoIcon.css'
+
+import './css/index.css'
 
 const TodoIcon = ({ type, isCompleted, onClick }) => {
 

@@ -1,4 +1,4 @@
-import './TodoList.css'
+import './css/index.css'
 
 function TodoList(props) {
   return (

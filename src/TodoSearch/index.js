@@ -1,10 +1,10 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import { TodoContext } from '../TodoContext'
-import './TodoSearch.css'
+
+import './css/index.css'
 
 function TodoSearch () {
   const { setSearchValue, status, setStatus } = useContext(TodoContext)
-
 
   return (
     <article className="search">

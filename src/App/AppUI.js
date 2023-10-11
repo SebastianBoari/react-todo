@@ -11,7 +11,7 @@ import { TodosEmpty} from '../TodosEmpty'
 import { Modal } from '../TodoModals'
 import { CreateTodoModal } from '../TodoModals/CreateTodoModal'
 
-import './styles/App.css'
+import './css/index.css'
 
 import { TodoContext } from '../TodoContext'
 

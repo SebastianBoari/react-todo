@@ -1,6 +1,8 @@
 import React from 'react'
 import { EmptyIcon } from '../TodoIcon/EmptyIcon'
-import './TodosEmpty.css'
+
+import './css/index.css'
+
 const TodosEmpty = () => {
   return (
     <div className='todosEmpty_container'>

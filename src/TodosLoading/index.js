@@ -1,7 +1,9 @@
 import React from 'react'
-import './TodosLoading.css'
+
 import { CompleteIcon } from '../TodoIcon/CompleteIcon'
 import { DeleteIcon } from '../TodoIcon/DeleteIcon'
+
+import './css/index.css'
 
 const TodosLoading = () => {
   return (
