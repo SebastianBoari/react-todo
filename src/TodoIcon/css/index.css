@@ -32,13 +32,13 @@
 }
 
 .item_delete-icon {
-    fill: firebrick;
+    fill: gray;
     cursor: pointer;
     transition: all .4s ease-in;
 }
 
 .item_delete:hover .item_delete-icon {
-    fill: red;
+    fill: crimson;
     transform: rotate(180deg);
     transition: all .2s ease-in;
 }

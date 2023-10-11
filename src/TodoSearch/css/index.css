@@ -1,27 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300&display=swap');
 
 .search {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    align-content: center;
-    flex-grow: 1;
-    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+
     background: floralwhite;
-    border-radius: 16px 16px 0px 0px;
+    border-radius: 32px 32px 0px 0px;
 }
 
 .search_options {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-content: center;
-    flex-grow: 1;
-    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 .search_options-label {
-    width: 100%;
     padding: 3.2rem;
     background: floralwhite;
 
@@ -29,6 +21,7 @@
     font-size: 1.6em;
     font-weight: 400;
     text-align: center;
+
     cursor: pointer;
     transition: all .3s ease-in;
 }
@@ -75,6 +68,10 @@
 
     border-radius: 0px 0px 16px 16px;
     transition: all .4s ease-in;
+}
+
+.search_browser-input::placeholder {
+    color: silver;
 }
 
 .search_browser-input:focus {
