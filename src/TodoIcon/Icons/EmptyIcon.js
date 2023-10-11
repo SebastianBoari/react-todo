@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { TodoIcon } from './'
+import { TodoIcon } from '../index'
 
 const EmptyIcon = () => {
   return (

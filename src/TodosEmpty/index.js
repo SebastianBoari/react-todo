@@ -1,5 +1,5 @@
 import React from 'react'
-import { EmptyIcon } from '../TodoIcon/EmptyIcon'
+import { EmptyIcon } from '../TodoIcon/Icons/EmptyIcon'
 
 import './css/index.css'
 
