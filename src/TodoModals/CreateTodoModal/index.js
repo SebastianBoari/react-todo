@@ -13,7 +13,7 @@ const CreateTodoModal = () => {
     }
     const onSubmit = (event) => {
         event.preventDefault()
-        addTodo(newTodoValue)
+        addTodo(newTodoValue, false)
         setOpenModal(false)
     }
 
