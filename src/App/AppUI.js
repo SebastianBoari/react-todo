@@ -35,7 +35,7 @@ const AppUI = () => {
         <TodoList>
         {loading && <TodosLoading />}
         {error && <TodosError />}
-        {(!loading && searchedTodos().length === 0) && <TodosEmpty />}
+        {(!loading && searchedTodos().length === 0 && !error) && <TodosEmpty />}
 
         {searchedTodos().map((todo)=> (
           <TodoItem 
