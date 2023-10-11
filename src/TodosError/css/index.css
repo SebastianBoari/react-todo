@@ -1,0 +1,33 @@
+.error {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 28rem;
+    gap: .8rem;
+}
+
+.error_header svg {
+    width: 6.4rem;
+    fill: crimson;
+}
+
+.error_footer {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: .8rem;
+}
+
+.error_footer-title {
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.error_footer-description {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+}
