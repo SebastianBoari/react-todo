@@ -7,7 +7,7 @@ const TodosEmpty = () => {
   return (
     <div className='todosEmpty_container'>
       <EmptyIcon/>
-      <p>Nada nuevo por aquí</p>
+      <p>Nada por aquí</p>
     </div>
   )
 }
