@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/react-todo/static/css/main.1a412188.css",
-    "main.js": "/react-todo/static/js/main.6f33784b.js",
-    "static/media/empty.svg": "/react-todo/static/media/empty.d696a9c0735ede2aef32380bacbf83d6.svg",
+    "main.css": "/react-todo/static/css/main.39e3c8fa.css",
+    "main.js": "/react-todo/static/js/main.c52adae1.js",
     "index.html": "/react-todo/index.html",
-    "static/media/delete.svg": "/react-todo/static/media/delete.5f125e01723bfc1821043c806af9ad9a.svg",
-    "static/media/check.svg": "/react-todo/static/media/check.d74c2d534010212e157119a355c6a1c1.svg",
-    "main.1a412188.css.map": "/react-todo/static/css/main.1a412188.css.map",
-    "main.6f33784b.js.map": "/react-todo/static/js/main.6f33784b.js.map"
+    "static/media/empty.svg": "/react-todo/static/media/empty.8ad742226296f977b2e4348856fbda10.svg",
+    "static/media/error.svg": "/react-todo/static/media/error.fc5fc1affe070a87c008598bd1ec1f7e.svg",
+    "static/media/delete.svg": "/react-todo/static/media/delete.e23a401dd58dc4451fcc6436d01f1700.svg",
+    "static/media/create.svg": "/react-todo/static/media/create.633635d8984dc8b28621183c1fe9ab92.svg",
+    "static/media/check.svg": "/react-todo/static/media/check.df5885fbb378e5d3ad58d7b50f0a3553.svg",
+    "main.39e3c8fa.css.map": "/react-todo/static/css/main.39e3c8fa.css.map",
+    "main.c52adae1.js.map": "/react-todo/static/js/main.c52adae1.js.map"
   },
   "entrypoints": [
-    "static/css/main.1a412188.css",
-    "static/js/main.6f33784b.js"
+    "static/css/main.39e3c8fa.css",
+    "static/js/main.c52adae1.js"
   ]
 }
