@@ -54,4 +54,4 @@ El diseño no fué esquematizado, ni elaboré un wireframe. Fuí armando el dise
 
 ### Conclusión
 
-Me siento satisfecho con el resultado final, aunque detecto algunos "errores" en como implementé el patrón de diseño "feature-based" creo entender las ventajas del patrón aunque no termina de convencerme.
+Me siento satisfecho con el resultado final, aunque detecto algunos "errores" en como implementé el patrón de diseño "feature-based" creo entender las ventajas del patrón sin embargo no termina de convencerme.
